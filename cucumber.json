@@ -1,0 +1,6 @@
+{
+  "default": {
+    "format": ["progress", "html:cucumber-report.html"],
+    "require": ["features/step_definitions/*.js"]
+  }
+}

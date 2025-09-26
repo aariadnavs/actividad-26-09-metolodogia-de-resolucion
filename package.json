@@ -1,0 +1,17 @@
+{
+  "name": "metodologia-de-resolucion-de-problemas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "chai": "^6.0.1",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}

@@ -1,0 +1,1 @@
+function calcularResumenFinanciero(ingresos, gastos) { return ingresos - gastos; } module.exports = { calcularResumenFinanciero };

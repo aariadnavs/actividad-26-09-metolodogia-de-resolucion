@@ -1,0 +1,76 @@
+[
+  {
+    "description": "  Para saber mis finanzas\n  Como usuario\n  Quiero calcular el balance entre ingresos y gastos",
+    "elements": [
+      {
+        "description": "",
+        "id": "resumen-financiero;calcular-balance-positivo",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Calcular balance positivo",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que tengo un ingreso de 1000",
+            "match": {
+              "location": "features\\step_definitions\\financial-steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1196799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "un gasto de 400",
+            "match": {
+              "location": "features\\step_definitions\\financial-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "calculo el balance",
+            "match": {
+              "location": "features\\step_definitions\\financial-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "el resultado debe ser 600",
+            "match": {
+              "location": "features\\step_definitions\\financial-steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 757699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "resumen-financiero",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Resumen financiero",
+    "tags": [],
+    "uri": "features\\financial-summary1.feature"
+  }
+]
